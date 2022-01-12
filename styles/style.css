@@ -18,6 +18,41 @@ main{
     margin-top: 21px;
 }
 
+/*------------------------------------- 
+    header part styles 
+-------------------------------------*/
+header{
+    background-color: #562EFF;
+    height: 94px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+}
+.left-side img{
+    width: 40px;
+    height: 51px;
+}
+.left-side p{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
 /* top players styles */
 .top-players{
     margin-bottom: 30px;
@@ -88,6 +123,13 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
+}
+.course{
+    padding: 10px;
+    border: 3px solid transparent;
+}
+.course:hover{
+    border: 3px solid #562EFF;
 }
 .course .course-banner img{
     width: 224px;
